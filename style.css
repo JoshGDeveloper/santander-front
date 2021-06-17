@@ -14,3 +14,25 @@ button{
 body{
     background-color: #ecf028fb;
 }
+
+.header{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+li{
+    /*Hace que la lista se vea de forma horizontal y elimina las viñetas*/
+    display: inline;
+}
+
+/* Se aplica el estilo a los hijos del header*/
+.header > *{
+    /*Hace que los elementos esten en linea y fijos*/
+    display: inline-block;
+}
+
+.logo{
+    width: 15%;
+}
