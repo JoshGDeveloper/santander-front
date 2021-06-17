@@ -12,13 +12,21 @@ button{
     color: #fff;
 }
 body{
-    background-color: #ecf028fb;
+    background-color: #60ddf383;
 }
 
 .header{
+    /*
     margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
+    */
+    /*Margin: Arriba| Derecha | Abajo | Izquierda */
+    margin: 40 px 20px 0 20px;
+    /*Mata los espacios que hay entee los elementos del header*/
+    font-size: 0;
+    line-height: 45px;
+    
 }
 
 
@@ -31,8 +39,25 @@ li{
 .header > *{
     /*Hace que los elementos esten en linea y fijos*/
     display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
 }
 
 .logo{
     width: 15%;
 }
+
+.navbar{
+    width: 70%;
+    text-align: center;
+    color: green;
+
+}
+
+.actions {
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+  }
