@@ -25,14 +25,15 @@ body{
     margin: 40 px 20px 0 20px;
     /*Mata los espacios que hay entee los elementos del header*/
     font-size: 0;
-    line-height: 45px;
-    
+    height: 45px;
+    font-family: sans-serif;
 }
 
 
 li{
     /*Hace que la lista se vea de forma horizontal y elimina las viñetas*/
     display: inline;
+    margin: 0 25px 0 25px;
 }
 
 /* Se aplica el estilo a los hijos del header*/
@@ -51,13 +52,29 @@ li{
 
 .navbar{
     width: 70%;
-    text-align: left;
-    color: green;
-
+    text-align: center;
+    color: #025157;
 }
 
 .actions {
     width: 15%;
-    text-align: left;
+    text-align: right;
     font-size: 14px;
+    
+  }
+
+  .actions > *{
+    margin: 0 10px 0 10px;
+  }
+
+  .actions a{
+      color: #67b54b;
+  }
+
+  .actions button{
+      color: white;
+      background-color: #67b54b;
+      padding: 12px;
+      border-radius: 5px;
+      border: 0;
   }
