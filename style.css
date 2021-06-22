@@ -79,6 +79,14 @@ li{
       border: 0;
   }
 
+  .promo{
+      display: flex;
+      /*Tamaño que toma de la pantalla*/
+      width: 70%;
+      /*Margen arriba y abajo 100 | derecha e izquierda automatico*/
+      margin: 100px auto;
+      align-items: center;
+  }
   
   .publicidad  h4{
       font-family: Cambria;
@@ -91,4 +99,9 @@ li{
 
   .publicidad > form p{
       color: #025157;
+  }
+
+  .videoConteiner{
+      display: flex;
+      flex-direction: column;
   }
