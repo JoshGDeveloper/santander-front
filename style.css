@@ -78,3 +78,17 @@ li{
       border-radius: 5px;
       border: 0;
   }
+
+  
+  .publicidad  h4{
+      font-family: Cambria;
+      color: #025157;
+  }
+
+  .publicidad  p{
+      color: #343434;
+  }
+
+  .publicidad > form p{
+      color: #025157;
+  }
