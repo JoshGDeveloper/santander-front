@@ -100,6 +100,7 @@ li{
       /*Margen arriba y abajo 100 | derecha e izquierda automatico*/
       margin: 100px auto;
       align-items: center;
+      /*justify-content: space-between;*/
   }
   
   .publicidad  h4{
@@ -118,4 +119,174 @@ li{
   .videoConteiner{
       display: flex;
       flex-direction: column;
+      margin-right: 15px;
   }
+
+  /*Agregando el estilo del contenodr de las historias de exito*/
+  .success-stories {
+    /*color del fondo*/
+  background-color: #a1d683;
+  /*relleno del contnedor*/
+  padding: 5% 15%;
+  /*Propiedad flex*/
+  display: flex;
+  /*Los items estaran de forma horizontal y centrados*/
+  align-items: center;
+  /*Espacio para los items del contenedor*/
+  justify-content: space-around;
+}
+
+/*Agregando el estilo para el bloque izquierdo de las historias de exito*/
+.success-stories .overview {
+    /**/
+  flex: 2;
+  /*relleno a la derecha*/
+  padding-right: 100px;
+}
+
+/*Agregando el estilo para el encabezado del bloque izquierdo de las historias de exito*/
+.success-stories .overview h2 {
+    /*Tipo de fuente*/
+  font-family: "Alegreya", serif;
+  /*Tamaño de la fuente*/
+  font-size: 51px;
+  line-height: 61px;
+  color: #025157;
+}
+
+/*Agregando el estilo para el parrafo del bloque izquierdo de las historias de exito*/
+.success-stories .overview p {
+  color: #343434;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/*Agregando el estilo para el boton del bloque izquierdo de las historias de exito*/
+.success-stories .overview button {
+  font-size: 14px;
+  padding: 12px 12px 6px 12px;
+  border-radius: 8px;
+  height: 45px;
+  font-weight: 600;
+  margin-left: 0;
+}
+/*Agregando el estilo para la imagen del bloque izquierdo de las historias de exito*/
+.success-stories .overview img {
+  width: 500px;
+  max-width: 100%;
+}
+
+/*Agregando el estilo al contnedor de la tarjeta*/
+.success-stories .stories-carousel {
+  flex: 1;
+}
+
+
+/*Agregando estilo a la tarjeta*/
+.success-stories .stories-carousel .card {
+    /*Ancho maximo*/
+  max-width: 370px;
+  /*Porcentaje al que se dapata de pantalla*/
+  width: 100%;
+  /*Color de fondo*/
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+/*Agregando estilo a las imagenes del encabezado de la tarjeta*/
+.success-stories .stories-carousel .card .card-media img {
+  width: 100%;
+  max-height: 16vw;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/*Agregando estilo de la etieuta figure que contiene la foto de la persona*/
+.success-stories .stories-carousel .card .card-media figure {
+  margin-top: 0;
+}
+
+/*Agregando la posición del encabezado de la tarjeta*/
+.success-stories .stories-carousel .card .card-media {
+  /*Permite que el elemento se desplaze, lo que provoca superposiciones*/
+  position: relative;
+}
+
+/*Agregando estilo al contenedor de la imagen de la compañia que aparece en el encabezado*/
+.success-stories .stories-carousel .card .card-media .company {
+    /*Permite superposición y los demás elementos no lo notan*/
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: #f9da73;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Agregando estilo a la imagen de la compañia que aparece en el encabezado*/
+.success-stories .stories-carousel .card .card-media .company img {
+  max-width: 75%;
+}
+
+.success-stories .stories-carousel .card .card-body,
+.success-stories .stories-carousel .card .card-footer {
+padding: 25px;
+}
+
+/*Agregando estilo al titulo del encabezado de la tarejta*/
+.success-stories .stories-carousel .card .card-body h4 {
+  color: #025157;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+/*Agregando estilo al subtitulo del encabezado de la tarejta*/  
+.success-stories .stories-carousel .card .card-body h3 {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+/*Agregando estilo al contenedor de los resultados de la tarjeta*/
+.success-stories .stories-carousel .card .card-body .results {
+  display: flex;
+  align-items: center;
+  color: #828282;
+}
+
+/*Agregando estilo a la imagen de los resultados*/
+.success-stories .stories-carousel .card .card-body .results img {
+  width: 26px;
+  margin-right: 20px;
+}
+
+/*agregando estilo al parrafo de los resultados*/
+.success-stories .stories-carousel .card .card-body .results p {
+  margin-top: 0;
+}
+
+/*Agregando estilo al contenedor del pie de la tarjeta*/
+.success-stories .stories-carousel .card .card-footer {
+  margin-bottom: 20px;
+  background-color: unset;
+  border-top: unset;
+}
+
+/*Agregando estilo al boton del pie de la tarejta*/
+.success-stories .stories-carousel .card .card-footer button {
+  display: block;
+  margin-left: 0;
+  border-radius: 5px;
+  font-size: 13;
+  font-weight: 600;
+  padding: 12px 20px;
+  width: 100%;
+}
