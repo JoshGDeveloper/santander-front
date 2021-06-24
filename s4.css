@@ -1,0 +1,38 @@
+.container{ 
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background: rgb(129, 178, 218);
+    /*flex-direction row | row-reverse | column | column-reverse Cambia la orientación del eje principal.*/
+    flex-direction: unset;
+    /*flex-wrap nowrap | wrap | wrap-reverse Evita o permite el desbordamiento (multilinea).*/
+    flex-wrap:nowrap;
+  }
+
+  .container > .item {
+    background: #777;
+    width: 50%;
+    height: 50px;
+}
+
+.main{
+    display: flex;
+}
+
+/*Posicion en especifico*/
+.main div:nth-of-type(1){
+    /*Toma el valor que puede crecer*/
+    flex-grow: 1;
+}
+
+/*Posicion en especifico*/
+.main div:nth-of-type(4){
+    /*Multiplicado del espacio que tiene*/
+    /*Toma el valor que puede crecer*/
+    flex-grow: 1;
+}
+
+.features{
+    display: grid;
+    grid-template-columns: 300 px 300px ;
+  }
