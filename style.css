@@ -6,6 +6,7 @@ h2{
 }
 p{
     color: #dd1919cc;
+    margin-top: 15px;
 }
 button{
     background-color: #025157;
@@ -21,7 +22,8 @@ button{
 }
 
 body{
-    background-color: #60ddf383;
+    background-color: #fffbf7;
+    font-family: "Open Sans", sans-serif;
 }
 
 main {
@@ -291,18 +293,78 @@ padding: 25px;
   width: 100%;
 }
 
+/*Se define los estilos del contenedor GRID de Features*/
 .features{
+  background-color: #025157;
+  margin: 0 auto;
+  padding: 5% 10%;
+  /*Se indica que se usara una rejilla de grid*/
   display: grid;
-  /*grid-template-columns: 300px 300px ;*/
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 330px 330px;
-  /*Realiza #columnas con el espacio disponible*/
-  /*grid-template-columns: repeat(2, 300px);*/
+  /*Se estabecen 2  columnas automaticamente con un valor minimo de 330 y maximo 1fr*/
+  grid-template-columns: repeat(2, minmax(330px,2fr));
+  /*separacion de las colummnas*/
+  gap: 2em;
 }
 
-.f-art{
-  background-color: lightcoral;
-  margin: 10px;
-  width: 40%;
-  height: 50px;
+/*Se define el estilo de la tarjeta de Features*/
+.features .tarjeta-f{
+  background-color: white;
+  /*width: 100%;*/
+  /*Establece bordes redondeados*/
+  border-radius: 1em;
+  /*Sombra del borde*/
+  box-shadow: 0 0 6px rgb(247, 244, 244);
+  display: flex;
+  overflow: hidden;
 }
+
+/*Se define el estilo para el texto de la tarjeta Features*/
+.features .tarjeta-f .texto-tarjeta-f{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px 30px 30px;
+  width: 100%;
+}
+
+
+/*Se define el estilo del iconito del texto de la tarjeta Features*/
+.features .tarjeta-f .texto-tarjeta-f img{
+  width: 50px;
+}
+
+/*Se define el estilo para el titulo del texto de la tarjeta Features*/
+.features .tarjeta-f .texto-tarjeta-f h3{
+  font-size: 24px;
+  color: #343434;
+  font-weight: 400;
+}
+
+.features .tarjeta-f .texto-tarjeta-f p{
+  font-size: 16px;
+  color: #7e7e7e;
+  font-weight: 400;
+}
+
+.features .tarjeta-f .texto-tarjeta-f a{
+  font-size: 16px;
+  color: #67b54b;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+/*Se define el estilo para el contenernedor de la imagen de la tarjeta Featiures*/
+.features .tarjeta-f .imagen-tarjeta-f{
+  align-self: center;
+  padding: 0.5em 1.5em;
+  width: 40%;
+  flex: 1;
+  position: relative;
+}
+
+/*Se define el estilo para imagen principal de la tarjeta Features*/
+.features .tarjeta-f .imagen-tarjeta-f img{
+  height: 300px;
+}
+
+
