@@ -11,6 +11,12 @@ p{
 button{
     background-color: #025157;
     color: #fff;
+    font-size: 14px;
+    padding: 12px 12px 6px 12px;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 600;
+    margin-left: 0;
 }
 
 .fixed-header{
@@ -367,4 +373,107 @@ padding: 25px;
   height: 300px;
 }
 
+/* Se define el estilo de la seccion How does matcha work */
+.HowWork{
+  text-align: center;
+  padding: 1% 7%;
+}
+
+/*Se define el estilo para el titulo de la seccion How does matcha work */
+.HowWork .HowWork__titulo{
+  color: #025157;
+  font-size: 50px;
+  line-height: 60px;
+  font-family: "Alegreya", serif;
+  /*margin-bottom: 8px;*/
+}
+
+/*Se define el estilo para el parrafo de la seccion How does matcha work */
+.HowWork .HowWork__parrafo{
+    max-width: 50%;
+    color: #46484c;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+/*Se define el estilo para el enlace contenido en el parrafo de la seccion How does matcha work */
+.HowWork .HowWork__parrafo a{
+  color: #67b54b;
+  text-decoration: none;
+}
+
+/* Se define el estilo para la seccion de tarjetas de How does matcha work */
+.HowWork .HowWork__tarjetas{
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 2em;
+}
+
+/* Se define el estilo para las tarjetas de la seccion de tarjetas de How does matcha work */
+.HowWork .HowWork__tarjetas .HowWork__tarjeta{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /*Establece bordes redondeados*/
+  border-radius: 5px;
+  /*Sombra del borde*/
+  box-shadow: 0 0 6px rgb(239, 243, 10);
+  justify-content: center;
+  align-items: center;
+}
+
+.HowWork .HowWork__tarjetas .HowWork__tarjeta .HowWork__tarjeta-encabezado {
+  position: relative;
+}
+
+/* Se define el estilo para el icono de la tarjeta de la seccion de tarjetas de How does matcha work */
+.HowWork .HowWork__tarjetas .HowWork__tarjeta .HowWork__tarjeta-encabezado .card-step-icon{
+  width: 25px;
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+
+/* Se define el estilo para la imagen principal de la tarjeta de la seccion de tarjetas de How does matcha work */
+.HowWork .HowWork__tarjetas .HowWork__tarjeta .card-step-bg{
+  width: 100%;
+  height: 100%;
+}
+
+/*Se define el estilo del cuerpo de la tarjeta de la seccion de tarjetas de How does matcha work */
+.HowWork .HowWork__tarjetas .HowWork__tarjeta .HowWork__tarjeta-cuerpo{
+  padding: 0.5em 1em;
+}
+
+/*Se define el estilo del titulo del cuerpo de la tarjeta de la seccion de tarjetas de How does matcha work */
+.HowWork .HowWork__tarjetas .HowWork__tarjeta .HowWork__tarjeta-cuerpo  h3{
+  font-size: 30px;
+  line-height: 36px;
+  font-family: "Alegreya", serif;
+  color: #025157;
+  text-align: center;
+  margin-top: auto;
+}
+
+/*Se define el estilo del parrafo del cuerpo de la tarjeta de la seccion de tarjetas de How does matcha work */
+.HowWork .HowWork__tarjetas .HowWork__tarjeta .HowWork__tarjeta-cuerpo p{
+  font-size: 15px;
+  line-height: 1.5;
+  color: #46484c;
+  height: 85px;
+}
+
+/*Se define el estilo del enlace del cuerpo de la tarjeta de la seccion de tarjetas de How does matcha work */
+.HowWork .HowWork__tarjetas .HowWork__tarjeta .HowWork__tarjeta-cuerpo a{
+  font-size: 16px;
+  line-height: 1.4;
+  color: #67b54b;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: auto;
+}
 
