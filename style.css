@@ -19,6 +19,15 @@ p{
   font-size: 20px;
   margin-top: 15px;
 }
+
+.form-publish form{
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  margin: 0 auto;
+  gap: 1em;
+}
+
 button{
     background-color: #025157;
     color: #fff;
@@ -514,8 +523,19 @@ padding: 25px;
   main{
     margin-top: 80px;
   }
+  
+  /*Sesion5-Ej3 Cambio al ancho de la imagen capterra*/
+  .banner {
+    width: 100%;
+  }
 
-
+  /*Sesion5-Reto3 Ajustar el formulario*/
+  .form-publish form{
+    width: 65%;
+  }
+  .form-publish form > input{
+    gap: 5px;
+  }
   
 } 
 
