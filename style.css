@@ -1,12 +1,23 @@
-h1{
-    color:rgb(29, 216, 153);
+body{
+  background-color: #fffbf7;
+  font-family: "Open Sans", sans-serif;
 }
+
+h1{
+    color: #025157;
+    font-size: 60px;
+    font-family: "Alegreya", serif;
+    margin-bottom: 24px;
+}
+
 h2{
     color: #4479e2;
 }
 p{
-    color: #dd1919cc;
-    margin-top: 15px;
+  color: #8b8b8bcc;
+  font-family: verdana;
+  font-size: 20px;
+  margin-top: 15px;
 }
 button{
     background-color: #025157;
@@ -27,13 +38,10 @@ button{
     right: 0;
 }
 
-body{
-    background-color: #fffbf7;
-    font-family: "Open Sans", sans-serif;
-}
+
 
 main {
-    margin-top: 65px;
+    margin-top: 285px;
     text-align: center;
   }
 
@@ -128,6 +136,12 @@ li{
       display: flex;
       flex-direction: column;
       margin-right: 15px;
+  }
+
+  .videoConteiner img{
+    width: 200px;
+    margin-top: 10px;
+    align-self: center;
   }
 
   /*Agregando el estilo del contenodr de las historias de exito*/
@@ -307,7 +321,7 @@ padding: 25px;
   /*Se indica que se usara una rejilla de grid*/
   display: grid;
   /*Se estabecen 2  columnas automaticamente con un valor minimo de 330 y maximo 1fr*/
-  grid-template-columns: repeat(2, minmax(330px,2fr));
+  grid-template-columns: repeat(2, minmax(330px,1fr));
   /*separacion de las colummnas*/
   gap: 2em;
 }
@@ -476,4 +490,46 @@ padding: 25px;
   text-decoration: none;
   margin-bottom: auto;
 }
+
+
+/* dispositivos móviles en vista viewport (vertical) */
+ @media (max-width: 575px) {
+   /*Cambia el color de fondo de la página*/
+  /* body {
+    background-color: rgb(240, 240, 169);
+  } */
+
+  /*Oculta el Menu de navegacion y las acciones*/
+  .navbar,
+  .actions {
+    display: none;
+  }
+
+  /*Sesion5-Reto1 Disminuir el tamaño del H1*/
+  h1{
+    font-size: 30px;
+  }
+
+  
+} 
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+  
+} 
 
