@@ -536,6 +536,68 @@ padding: 25px;
   .form-publish form > input{
     gap: 5px;
   }
+
+   /*Sesion5-Ejemplo4 Alinear la seccion de publicidad*/
+   .promo{
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .publicidad  h4{
+    font-size: 25px;
+  }
+
+  .publicidad  p{
+      font-size: 15px;
+      line-height: 1.5;
+  }
+
+  .videoConteiner video{
+    width: 100%;
+  }
+
+  .videoConteiner img{
+    width: 40%;
+  }
+
+  /*Sesion5-Reto4 alinear las tarjetas en una columna*/
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .features .tarjeta-f .texto-tarjeta-f img{
+    width: 30px;
+  }
+
+  /*Se define el estilo para el titulo del texto de la tarjeta Features*/
+.features .tarjeta-f .texto-tarjeta-f h3{
+  font-size: 16px;
+}
+
+.features .tarjeta-f .texto-tarjeta-f p{
+  font-size: 14px;
+}
+
+.features .tarjeta-f .texto-tarjeta-f a{
+  font-size: 14px;
+}
+
+
+/*Se define el estilo para el contenernedor de la imagen de la tarjeta Featiures*/
+.features .tarjeta-f .imagen-tarjeta-f{
+  width: 20%;
+}
+
+/*Se define el estilo para imagen principal de la tarjeta Features*/
+.features .tarjeta-f .imagen-tarjeta-f img{
+  height: 250px;
+  /* Para que no parezca la imagen de las tarjetitas en features */
+  /*display: none;*/
+}
+
+  
+
+
   
 } 
 
