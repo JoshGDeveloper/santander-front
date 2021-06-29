@@ -510,6 +510,12 @@ padding: 25px;
     font-size: 30px;
   }
 
+  /*Sesion5-Reto2 Disminuir el margen superior del main*/
+  main{
+    margin-top: 80px;
+  }
+
+
   
 } 
 
