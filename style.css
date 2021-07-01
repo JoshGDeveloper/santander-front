@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya:900|Open+Sans|Slabo+27px&display=swap");
+
 body{
-  background-color: #f1d1b1;
+  background-color: #f7e2ce;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -46,8 +48,6 @@ button{
     left: 0;
     right: 0;
 }
-
-
 
 main {
     margin-top: 85px;
@@ -501,6 +501,23 @@ padding: 25px;
   margin-bottom: auto;
 }
 
+.jumbotron{
+  background-color: #96d178;
+  text-align: center;
+}
+
+.jumbotron input{
+  border: 1px solid #b6b6b6;
+  padding: 6px 20px;
+  width: 60%;
+  max-width: 250px;
+}
+
+.jumbotron p{
+  color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
 
 /* dispositivos móviles en vista viewport (vertical) */
  @media (max-width: 575px) {
