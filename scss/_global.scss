@@ -1,0 +1,14 @@
+/*Variables de colores*/
+/** _global.scss */
+$dark-green-title: #025157;
+$dark-green-text: #135359;
+$white: #ffff;
+
+/** Variables para las fuentes */
+$font-title: "Alegreya", serif;
+
+/** Definicion de la calse placeholders */
+%base-title {
+    font-family: $font-title;
+    color: $dark-green-text;
+  }
