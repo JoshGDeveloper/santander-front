@@ -1,0 +1,22 @@
+{
+  "name": "santanderfront",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshGDeveloper/santander-front.git"
+  },
+  "author": "Josue Almazan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoshGDeveloper/santander-front/issues"
+  },
+  "homepage": "https://github.com/JoshGDeveloper/santander-front#readme",
+  "dependencies": {
+    "sass": "^1.35.1"
+  }
+}

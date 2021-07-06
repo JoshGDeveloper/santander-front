@@ -40,6 +40,23 @@
 .blog .process-list .process .process-icon img {
   height: 100%;
 }
+.blog .card .card-title {
+  font-size: 24px;
+  color: #4a4a4a;
+}
+.blog .card .metadata {
+  font-size: 14px;
+}
+.blog .card .metadata .category {
+  color: #67b54b;
+}
+.blog .card .metadata .read-time {
+  color: #979797;
+}
+.blog .card .card-text {
+  color: #4a4a4a;
+  font-size: 15px;
+}
 .blog button {
   height: auto;
   border-top-left-radius: 8px;

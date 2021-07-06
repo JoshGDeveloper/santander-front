@@ -41,8 +41,30 @@
             }
           }
         }
+
       }
       
+      .card{
+        .card-title{
+          font-size: 24px;
+          color: $black-tarjeta;
+        }
+
+        .metadata{
+          font-size: 14px;
+          .category{
+            color: $green-negrita-tarjeta;
+          }
+          .read-time{
+            color: $black-parrafo-tarjeta;
+          }
+        }
+        .card-text{
+          color: $black-tarjeta;
+          font-size: 15px;
+        }
+      }
+
       button {
         height: auto;
         border-top-left-radius: 8px;
@@ -52,4 +74,3 @@
         margin-bottom: 15px;
       }  
   }
-
