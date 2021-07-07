@@ -63,6 +63,19 @@
           color: $black-tarjeta;
           font-size: 15px;
         }
+        .author{
+          img{
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+          }
+          p{
+            color: $black-tarjeta;
+            font-size: 14px;
+            margin-left: 8px;
+            font-weight: 600;
+          }
+        }
       }
 
       button {
